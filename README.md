@@ -11,4 +11,5 @@ steps:
 works fine for common js, fails with `ERR_MODULE_NOT_FOUND` on es6 version
 
 *notes*:
+- node version tested: 14.15
 - renamer runs on index.js in es6 folder so node interprets it as an esm module without `"type": "module"` in package.json
